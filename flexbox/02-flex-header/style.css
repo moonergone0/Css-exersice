@@ -1,0 +1,32 @@
+.header {
+ padding: 8px;
+ justify-content: space-between;
+ align-items: center;
+ display: flex;
+ font-family: monospace;
+ background: papayawhip;
+}
+.logo{
+ font-weight: 900;
+ color: #F36347;
+ padding: 4px 32px;
+ font-size: 48px;
+ background-color: white;
+}
+a{
+ font-size: 22px;
+ color: #784AA3;
+ /* margin: 8px; */
+ padding: 8px;
+ background-color: white;
+ text-decoration: none;
+}
+
+ul{
+ padding: 0;
+ margin: 0;
+ display: flex;
+ gap: 8px;
+ list-style: none;
+}
+

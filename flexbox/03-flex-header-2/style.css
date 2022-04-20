@@ -1,0 +1,60 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  color: #663399;
+  text-decoration: none;
+}
+
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.notifications {
+  width: 150px;
+  border-style: none;
+  height: 30px;
+  border-radius: 12px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #663399;
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 80%;
+  margin: 8px;
+  width: 48px;
+  height: 48px;
+  background-color: #663399;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

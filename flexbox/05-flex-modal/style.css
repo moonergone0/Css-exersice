@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body{
+ height: 100%;
+}
+
+body{
+ margin: 0;
+ /* border: 3px solid blue; */
+ font-family: Roboto, sans-serif;
+ background: #AAAAAA;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.title{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 700;
+ font-size: 18px;
+ margin-bottom: 8px;
+}
+
+.modal{
+ width: 480px;
+ box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+ border-radius: 10px;
+ padding: 16px;
+ background-color: white;
+ display: flex;
+ gap: 16px;
+ 
+
+}
+
+.icon{
+ height: 42px;
+ width: 42px;
+ font-size: 26px;
+ font-weight: 700;
+ border-radius: 50%;
+ background-color: #E6E6FA;
+ color: #4169E1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-shrink: 0; /* this keeps the icon from getting smashed by the text */
+}
+.close-button{
+ height: 24px;
+ width: 24px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #eee;
+color: #888;
+}
+button.continue{
+ border: 1px solid #4169E1;
+ background-color: #4169E1;
+ color: white;
+}
+button.cancel{
+ border: 1px solid #ddd;
+ background-color: white;
+ color: #4169E1;
+}
+button{
+ padding: 8px 16px;
+ border-radius: 8px;
+}
+
+.text{
+ margin-bottom: 16px;
+}
